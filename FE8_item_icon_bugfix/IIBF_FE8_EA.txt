@@ -1,0 +1,8 @@
+#include "Extensions/Hack Installation.txt"
+ORG 0x3656
+SHORT 0 
+jumpToHack(ItemIconBugfix)
+ORG Free_Space
+ALIGN 4
+ItemIconBugfix:
+#incbin "IIBF_EA_Version.dmp"
