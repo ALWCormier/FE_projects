@@ -1,0 +1,13 @@
+#include "Extensions/Hack Installation.txt"
+#define Free_Space 0xB2A610
+ORG 0x2C0B4
+ALIGN 4
+jumpToHack(WD)
+ORG 0x2B6A0
+ALIGN 4
+SHORT 0x4A00 0x4710
+POIN 0x0802b6F0|1
+ORG Free_Space
+ALIGN 4
+WD:
+#incbin "Wan_Devil.dmp"
