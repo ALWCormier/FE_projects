@@ -1,1 +1,1 @@
-Implements "Starphere" item in FE8. No EA installer included.
+Implements "Starphere" item in FE8 (when in inventory, weapons do not lose durability). No EA installer included.
